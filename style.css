@@ -1,0 +1,267 @@
+ *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+ }
+ body{
+    background-color: #000;
+ }
+ .main{
+
+    height: 100vh;
+    background-image: url("images/netflix.jpg");
+    position: relative;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 100vw;
+}
+.main .box{
+    height: 100vh;
+    width: 100%;
+    opacity: 0.43;
+    background-color: #000;
+    position: absolute;
+    top: 0;
+}
+nav{
+    max-width: 80vw;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+}
+nav span{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+span img{
+    position: relative;
+    z-index: 1;
+    width: 150px;
+}
+span button{
+    position: relative;
+    z-index: 1;
+}
+select{
+    padding: 5px;
+}
+.btn{
+    color: white;
+    position: relative;
+    /* background: transparent; */
+    background-color: #000;
+    opacity: 0.7;
+    border-radius: 5px;
+    z-index: 1;
+    font-size: 1.2rem;
+padding: 7px 21px;
+    /* font-size: 1.02rem; */
+}
+.red-btn{
+    background-color: rgb(236, 2, 2);
+    color: white;
+    border-radius: 5px;
+    border: none;
+    font-size: 0.9rem;
+    padding: 9px 19px;
+    z-index: 1;
+}
+.hero{
+    height:100% ;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+ .first{
+    font-size: 2.5rem;
+    font-weight: 600;
+    margin-bottom: 33px;
+}
+.sec ,.third{
+    font-weight: 400;
+    margin: 5px;
+    
+}
+.hero-btns{
+    margin-top: 1.2rem;
+    /* width: 11vw;
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    font-size: 1.19rem;
+    padding: 0.8rem; */
+}
+.hero-plac,.hero-but{
+    padding: 0.7rem;
+}
+.hero-plac{
+    width: 35vw;
+    background-color: black;
+    opacity: 0.8;
+    font-size: 1.3rem;
+   
+}
+
+.hero-but{
+    /* width: 10vw;
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 3px; */
+    width: 13vw;
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    font-size: 1.4rem;
+    padding: 0.8rem;
+    font-weight: 500;
+}
+.seperation{
+    margin-top: -60px;
+    height: 7px;
+    background-color:grey;
+    opacity: 0.3;
+}
+.content{
+    height: 100vh;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+.text{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.vdo{
+    position: relative;
+}
+.vdo img{
+    width: 47vw;
+    z-index: 1;
+    position: relative;
+}
+video{
+    /* position: absolute; */
+    top: 91px;
+    position: absolute;
+    right: 75px;
+}
+.first-text{
+    font-size: 3rem;
+    font-family: sans-serif;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+.sec-text{
+    /* font-size: 2rem; */
+    font-size: 1.5rem;
+    margin: 0 4px;
+}
+.vdo1{
+    width: 50vw;
+}
+/* .saif{
+    position: absolute;
+    bottom: 5px;
+
+} */
+.faq{
+  /* max-height:  128vh; */
+    color: white;
+    margin-top: 1.7rem;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: center; */
+
+}
+.faq h1{
+    font-size: 3rem;
+    font-family: sans-serif;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+.accordian{
+    width: 80vw;
+    margin: 0 auto;
+    background-color: rgb(45,45,45);
+    padding: 1.2rem;
+    margin-top: 0.5rem;
+}
+.accordian .question{
+    font-size: 1.5rem;
+    margin-bottom: 1.5rem;
+    display: flex;
+    justify-content: space-between;
+
+}
+.question:hover{
+    background-color: rgba(45,45,45,0.3);
+     cursor: pointer;
+}
+.question span{
+    font-size: 2.7rem;
+    cursor: pointer;
+    transition: transform 0.2s;
+}
+.question span .active{
+    transform: rotate(45deg);
+}
+.answer{
+    font-size: 1.5rem;
+    max-height: 0px;
+    overflow: hidden;
+    transition: max-height 0.2s;
+}
+.ans-first{
+    margin-bottom: 1.7rem;
+}
+.acc-para{
+    font-size: 1.3rem;
+    margin-top: 1.4rem;
+}
+
+ footer{
+    height: 80vh;
+ }
+ .footer-seperation{
+    margin-top: 59px;
+ }
+.footer {
+ margin-top: 5rem;
+ color:white;
+ display: flex;
+ flex-direction: column;
+ gap: 1.5rem;
+}
+ .footer> p{
+    margin-left: 8rem;
+    
+ }
+.footer-section{
+    display: flex;
+    width: 80vw;
+    margin: auto;
+    justify-content: space-between;
+}
+.footer1{
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+a{
+ display: block;
+ color: white;
+}
